@@ -5,7 +5,8 @@
 /drupal/web/modules/contrib/
 /drupal/web/themes/contrib/
 /drupal/web/profiles/contrib/
-/drupal/web/libraries
+/drupal/web/libraries/
+/drupal/private/
 
 # Ignore sensitive information
 /drupal/web/sites/*/settings.php
