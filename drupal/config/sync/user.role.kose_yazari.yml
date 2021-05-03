@@ -1,0 +1,47 @@
+uuid: a6293d4a-fb07-47ee-acc2-e7615ca13d17
+langcode: tr
+status: true
+dependencies: {  }
+id: kose_yazari
+label: 'Köşe Yazarı'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access site in maintenance mode'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'create article content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create remote_video media'
+  - 'create url aliases'
+  - 'create video media'
+  - 'delete any audio media'
+  - 'delete any document media'
+  - 'delete media'
+  - 'delete own article content'
+  - 'delete own audio media'
+  - 'delete own document media'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete own video media'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own comments'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'search content'
+  - 'update media'
+  - 'use admin toolbar search'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view the administration theme'

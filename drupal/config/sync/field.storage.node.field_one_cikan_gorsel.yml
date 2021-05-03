@@ -1,0 +1,26 @@
+uuid: 58c4bd7b-1261-4887-afe6-b214254d5421
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_one_cikan_gorsel
+field_name: field_one_cikan_gorsel
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

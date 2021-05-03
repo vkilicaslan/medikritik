@@ -1,0 +1,13 @@
+uuid: c0d311d1-2889-4f89-b364-05def21f3109
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Genel
+tags:
+  title: '[current-page:title] | [site:name]'
+  robots: 'index, follow'
+  generator: 'Eti Bilişim'
+  canonical_url: '[current-page:url]'

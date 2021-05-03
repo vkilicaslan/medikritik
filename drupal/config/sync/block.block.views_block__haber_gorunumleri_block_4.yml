@@ -1,0 +1,30 @@
+uuid: 5f2ebca3-216c-4a60-98ff-0c6a903b6e6b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.haber_gorunumleri
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__haber_gorunumleri_block_4
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -14
+provider: null
+plugin: 'views_block:haber_gorunumleri-block_4'
+settings:
+  id: 'views_block:haber_gorunumleri-block_4'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

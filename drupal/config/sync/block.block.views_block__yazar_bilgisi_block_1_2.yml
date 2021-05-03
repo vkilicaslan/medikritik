@@ -1,0 +1,31 @@
+uuid: e15e1f2e-2e9e-45a8-8bdf-d7d65186ec82
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yazar_bilgisi
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yazar_bilgisi_block_1_2
+theme: conference_lite
+region: content
+weight: -18
+provider: null
+plugin: 'views_block:yazar_bilgisi-block_1'
+settings:
+  id: 'views_block:yazar_bilgisi-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/users/*'
+    negate: false
+    context_mapping: {  }

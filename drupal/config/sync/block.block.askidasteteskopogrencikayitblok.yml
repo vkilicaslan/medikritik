@@ -1,0 +1,31 @@
+uuid: ebeff546-ca95-492d-a150-de40f7d54154
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb0c404e-ba08-43ce-be44-3ab751ad3641'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: askidasteteskopogrencikayitblok
+theme: conference_lite
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'block_content:cb0c404e-ba08-43ce-be44-3ab751ad3641'
+settings:
+  id: 'block_content:cb0c404e-ba08-43ce-be44-3ab751ad3641'
+  label: 'Askıda Steteskop Öğrenci Kayit Blok'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /askida-steteskop-ogrenci-kayit
+    negate: false
+    context_mapping: {  }

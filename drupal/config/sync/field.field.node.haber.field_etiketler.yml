@@ -1,0 +1,28 @@
+uuid: 377f2c1e-0a05-42fb-8007-719c18591667
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etiketler
+    - node.type.haber
+    - taxonomy.vocabulary.tags
+id: node.haber.field_etiketler
+field_name: field_etiketler
+entity_type: node
+bundle: haber
+label: Etiketler
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

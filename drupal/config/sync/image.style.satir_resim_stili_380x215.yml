@@ -1,0 +1,15 @@
+uuid: 7c5da025-1a70-4a80-80fa-68e9a4fb680d
+langcode: tr
+status: true
+dependencies: {  }
+name: satir_resim_stili_380x215
+label: 'Satir Resim Stili 380x215'
+effects:
+  dfe0e5c1-ec20-4f21-bf68-2aecf74df5e2:
+    uuid: dfe0e5c1-ec20-4f21-bf68-2aecf74df5e2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 215
+      anchor: center-center

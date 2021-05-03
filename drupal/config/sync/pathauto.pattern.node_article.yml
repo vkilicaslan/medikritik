@@ -1,0 +1,22 @@
+uuid: 8ebef8ad-7fc4-4c2a-bb5c-f587e9c896d4
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: node_article
+label: 'İçerik - Köşe Yazısı'
+type: 'canonical_entities:node'
+pattern: 'kose-yazilari/[node:title]'
+selection_criteria:
+  43fc7892-b80a-44c6-9def-31bca7f808da:
+    id: node_type
+    bundles:
+      kose_yazisi: kose_yazisi
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 43fc7892-b80a-44c6-9def-31bca7f808da
+selection_logic: and
+weight: 0
+relationships: {  }

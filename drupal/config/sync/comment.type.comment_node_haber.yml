@@ -1,0 +1,8 @@
+uuid: 4c72fc62-1961-4de9-ac7d-afe7958ffc1d
+langcode: tr
+status: true
+dependencies: {  }
+id: comment_node_haber
+label: 'Haber comment'
+target_entity_type_id: node
+description: null

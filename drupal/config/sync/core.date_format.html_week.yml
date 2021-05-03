@@ -1,0 +1,10 @@
+uuid: 8b9e95d5-cb6a-4d9e-9b64-c85467a18c5d
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML Hafta'
+locked: true
+pattern: Y-\WW

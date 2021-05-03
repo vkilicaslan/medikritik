@@ -1,0 +1,14 @@
+uuid: 7749be22-0dce-4e4e-843d-29b70fdc185f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - user.role.kose_yazari
+  module:
+    - user
+id: user_add_role_action.kose_yazari
+label: 'Köşe Yazarı rolünü seçili kullanıcı(lar)a ekleyin.'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: kose_yazari

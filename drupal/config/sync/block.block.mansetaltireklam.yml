@@ -1,0 +1,31 @@
+uuid: b24c75f1-c6ed-4549-8d6e-d5d20aab5b04
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a68f02b0-8e25-4a70-8eac-1b20966e7d72'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: mansetaltireklam
+theme: conference_lite
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:a68f02b0-8e25-4a70-8eac-1b20966e7d72'
+settings:
+  id: 'block_content:a68f02b0-8e25-4a70-8eac-1b20966e7d72'
+  label: 'Manşet Altı Reklam'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

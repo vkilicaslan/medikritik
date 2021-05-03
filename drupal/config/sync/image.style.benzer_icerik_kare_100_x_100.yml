@@ -1,0 +1,15 @@
+uuid: 87026368-7e05-47ee-b28e-31a664440508
+langcode: tr
+status: true
+dependencies: {  }
+name: benzer_icerik_kare_100_x_100
+label: 'Benzer İçerik Kare 100 x 100'
+effects:
+  c4c8a6f5-c614-466e-8a69-2fabd0d48efb:
+    uuid: c4c8a6f5-c614-466e-8a69-2fabd0d48efb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

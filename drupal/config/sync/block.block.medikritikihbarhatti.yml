@@ -1,0 +1,25 @@
+uuid: 2fb9b6a3-b099-4b57-b5a2-020295a2e5c5
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e8c957e3-3075-430d-95db-686b07bf4b15'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: medikritikihbarhatti
+theme: conference_lite
+region: footer_fifth
+weight: -20
+provider: null
+plugin: 'block_content:e8c957e3-3075-430d-95db-686b07bf4b15'
+settings:
+  id: 'block_content:e8c957e3-3075-430d-95db-686b07bf4b15'
+  label: 'Medikritik İhbar Hattı'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

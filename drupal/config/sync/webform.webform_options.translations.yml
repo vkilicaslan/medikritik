@@ -1,0 +1,14 @@
+uuid: f84f03b4-5eb8-4947-8c93-85dae4f2d19c
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: Mb_L3vE-0IBZH5s2rjpk2LNn0QHClQP9AARQdCmVLt4
+id: translations
+label: Çeviriler
+category: Language
+likert: false
+options: ''

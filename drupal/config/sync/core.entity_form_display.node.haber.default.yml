@@ -1,0 +1,158 @@
+uuid: e33f818b-c927-467a-8a6c-c2e2b5bff11d
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.haber.body
+    - field.field.node.haber.comment_node_haber
+    - field.field.node.haber.field_etiketler
+    - field.field.node.haber.field_foto_galeri
+    - field.field.node.haber.field_haber_kategorisi
+    - field.field.node.haber.field_haber_spotu
+    - field.field.node.haber.field_mansete_tasi
+    - field.field.node.haber.field_one_cikan_gorsel
+    - field.field.node.haber.field_video_url
+    - image.style.thumbnail
+    - node.type.haber
+  module:
+    - comment
+    - image
+    - imce
+    - path
+    - text
+    - video_embed_field
+id: node.haber.default
+targetEntityType: node
+bundle: haber
+mode: default
+content:
+  body:
+    weight: 10
+    type: text_textarea_with_summary
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  comment_node_haber:
+    type: comment_default
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_etiketler:
+    weight: 15
+    type: entity_reference_autocomplete_tags
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_foto_galeri:
+    weight: 12
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_haber_kategorisi:
+    weight: 14
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_haber_spotu:
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_mansete_tasi:
+    weight: 13
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_one_cikan_gorsel:
+    weight: 9
+    type: image_image
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: true
+    region: content
+  field_video_url:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,679 @@
+/**
+ * @file
+ * Use this CSS file to override components CSS rules
+ */
+/* Sistem Ayarlari */
+.logo img{
+    max-width: 500px;
+    width: 100%;
+  }
+  .header__container{
+    padding: 5px 0;
+    min-height: 50px;
+  }
+  #superfish-main{
+    text-align: center;
+  }
+  #superfish-main-accordion{
+    margin-bottom: 10px;
+  }
+  img{
+    border-radius: 0 !important;
+  }
+  .main-content__section, .sidebar__section {
+      padding: 10px 0;
+  }
+  .form--inline{
+    display: flex;
+  }
+  .form-actions{
+    margin:50px 0 1%;
+  }
+  .content-bottom.region--black-background{
+    background: #2f4b87;
+    padding: 20px 0;
+  }
+  .featured-top__section{
+    padding: 10px 0;
+  }
+  .subfooter{
+    background: #f6f6f6;
+  }
+  .col-12 h2.title, .col-12 nav > h2, .col-12 .block-search > h2 {
+      margin: 20px 0 20px;
+      padding-bottom: 5px;
+  }
+  .addtoany_list{
+    position: fixed;
+    right: 0;
+    top:50%;
+    z-index: 99;
+    background: #f6f6f6;
+    box-shadow: 0 2px 2px 2px grey;
+    padding:0 !important;
+    margin:0 !important;
+  }
+  .addtoany_list a{
+    display: block;
+    padding:0;
+  }
+  .addtoany_list span{
+    height:50px !important;
+    width:50px !important;
+    border-radius:0 !important;
+  }
+  h1.page-title {
+    font-size: 1.8em;
+  }
+  .node__links{
+    margin-top: 5px;
+  }
+  .block-search .form-actions::after{
+    color: #3b5998
+  }
+  /**************************************/
+  #blok-satir-gorunum-baslik a, #ek-satir-gorunum-baslik a, #yazar-baslik a, #populer-baslik a, #grid-baslik a, #yazar-sayfa-baslik a{
+    color:#000;
+    font-weight: 700;
+  }
+  /**************************************/
+  /* Manset Blok Ayarlari */
+  #block-views-block-manset-block-1{
+    padding: 0;
+    margin: 0;
+  }
+  #manset{
+    width: 100%;
+    position: relative;
+    float: left;
+  }
+  #manset-yazi{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 5% 10px 10%;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.2) 5%, rgba(0,0,0,0.7708217075892857) 30%, rgba(0,0,0,1) 100%);
+    width: 100%;
+  }
+  #manset-kategori{
+    color:orange;
+    margin:0 0 5%;
+    font-weight:700;
+    border:2px solid orange;
+    text-align:center;
+    width:20%;
+    background:rgba(0,0,0,0.4);
+  }
+  #manset-tarih{
+    color:#fff;
+    font-size: 12px;
+  }
+  #manset-baslik a{
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+  .slick-arrow:before{
+    color:rgb(59, 89, 152) !important;
+  }
+  /**************************************/
+  /* Yazarlar Blok Ayarlari */
+  #yazar{
+    text-align:left;
+    margin:0 0 2%;
+    height:80px;
+  }
+  #yazar-ad a{
+    color:#000;
+    font-size:12px;
+    font-weight:700;
+  }
+  #yazar-gorsel img{
+    border-radius:40% !important;
+    margin:0 auto;
+    width: 60px;
+  }
+  #yazar-gorsel{
+    width:25%;
+    float: left;
+    text-align: center;
+  }
+  #yazar-baslik a{
+   text-decoration:none;
+   font-size:14px;
+   font-weight:700;
+  }
+  #yazar-baslik {
+    line-height: 14px !important;
+    text-align: 
+  }
+  /**************************************/
+  /* Yazarlar Sayfa Ayarlari */
+  #yazar-sayfa{
+    width:31%;
+    float:left;
+    height:130px;
+    margin:0 1% 3% 1%;
+    box-shadow: 2px 2px grey;
+    overflow: hidden;
+    border:1px solid grey;
+    padding: 1%;
+  }
+  #yazar-sayfa-ust{
+    display: flex;
+  }
+  #yazar-sayfa-yazi{
+    margin:3% 0 3%;
+    float:left;
+    width: 100%;
+  }
+  #yazar-sayfa-ad{
+    padding: 1% 0 0 !important;
+  }
+  #yazar-sayfa-ad a{
+    font-weight:700;
+  }
+  #yazar-sayfa-gorsel img{
+    border-radius:40% !important;
+  }
+  #yazar-sayfa-gorsel{
+    width:15%;
+    margin: 0 5% 0 0
+  }
+  #yazar-sayfa-baslik a{
+   text-decoration:none;
+   font-size:18px;
+   font-weight:700;
+  }
+  #yazar-sayfa-baslik {
+    line-height: 120% !important;
+  }
+  #yazar-sayfa-yazi-alani{
+    font-size: 14px !important;
+  }
+  .node__header .profile {
+      margin-right: 10px !important;
+  }
+  /**************************************/
+  /* Yazar Profil Sayfa Ayarlari */
+  #block-views-block-yazar-bilgisi-block-1 h2{
+    text-align: center;
+  }
+  #yazar-bilgisi{
+    text-align: center;
+    border:1px solid grey;
+    padding: 5px;
+    box-shadow: 2px 2px grey;
+  }
+  #yazar-bilgisi-gorsel img{
+    border-radius: 40% !important;
+  }
+  .field--name-user-picture{
+    text-align: center;
+  }
+  .field--name-user-picture img{
+    width: 30%;
+  }
+  .field--name-user-picture img.image-style-thumbnail{
+      width: 100% !important;
+  }
+  #yazarin-yazisi{
+    margin:0 0 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 5px;
+    transition: 0.1s all ease-in-out;
+  }
+  #yazarin-yazisi:hover{
+    transition: 0.2s all ease-in-out;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+  #yazarin-yazisi-baslik a{
+    font-weight: 700;
+  }
+  /**************************************/
+  /* Yazarin Diger Yazilari */
+  #diger-yazilar{
+    margin:0 0 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 5px;
+    transition: 0.1s all ease-in-out;
+  }
+  #diger-yazilar:hover{
+    transition: 0.2s all ease-in-out;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+  /* Blok Satir Gorunum Ayalari */
+  #blok-satir-gorunum{
+    width: 48%;
+    float: left;
+    margin:0 2% 0 0;
+    position:relative;
+    box-shadow: 3px 2px #ddd;
+    padding: 5px;
+  }
+  #blok-satir-gorunum-tarih{
+    font-size: 12px;
+  }
+  #blok-satir-gorunum-baslik a{
+    font-weight: 700;
+  }
+  #blok-satir-gorunum-aciklama{
+    font-size: 16px;
+  }
+  #ek-satir-gorunum{
+    width: 50%;
+    float: left;
+    margin: 0 0 4%;
+    transition: 0.1s all ease-in-out;
+  }
+  #ek-satir-gorunum{
+    transition: 0.1s all ease-in-out;
+    box-shadow: 2px 2px 2px 2px #ddd;
+  }
+  #ek-satir-gorunum-gorsel{
+    width: 150px;
+    float: left;
+    margin:0 1% 0 0;
+  }
+  #ek-satir-gorunum-tarih{
+    font-size: 10px;
+  }
+  #ek-satir-gorunum-baslik a{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #ek-satir-gorunum-baslik{
+    line-height: 0.95 !important;
+  }
+  /*****************************************************/
+  /* Sayfa Satir Gorunum Ayarlari */
+  #satir-gorunum{
+    position: relative;
+    min-height: 175px;
+    margin:0 0 3% 0;
+    border-bottom: 2px solid #e5e5e5;
+  }
+  #satir-gorunum-tarih{
+    position: absolute;
+    top:1%;
+    padding: 5px;
+    left:1%;
+    background:#fdfdfd;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  #satir-gorunum-gorsel{
+    max-width: 300px;
+    float: left;
+    margin:0 2% 0 0;
+  }
+  #satir-gorunum-baslik a{
+    font-weight: 700;
+  }
+  #satir-gorunum-aciklama{
+    font-size: 16px;
+  }
+  /*****************************************************/
+  /* En Cok Goruntulenenler Blok Ayarlari */
+  #populer{
+    display: inline-flex;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 0 0 6% !important;
+  }
+  #populer-gorsel{
+   width: 50%;
+   margin:0 3% 3% 0;
+  }
+  #populer-kategori{
+    font-size: 12px;
+    color:orange;
+    font-weight: 700;
+  }
+  /*****************************************************/
+  /* Video Ayarlari */
+  #video-gorsel{
+    width: 24%;float: left;margin:0 1% 2% 0; cursor: pointer;
+  }
+  #video-sayfa{
+    width: 49%;
+    float: left;
+    margin: 0 1%2% 0;
+    position: relative;
+    overflow: hidden;
+  }
+  #video-sayfa-gorsel{
+    cursor: pointer;
+  }
+  #video-sayfa-baslik{
+    font-size:16px;
+  }
+  /*****************************************************/
+  /* Grid Ayarlari */
+  #grid{
+    position: relative;
+    width: 23%;
+    float: left;
+    margin: 0 2% 1% 0;
+  }
+  #grid-tarih{
+    font-size: 12px;
+  }
+  #grid-baslik{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  #grid-baslik a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #block-views-block-haber-gorunumleri-block-3 #grid-baslik a{
+    color:#fff;
+  }
+  /*****************************************************/
+  /* En Cok Goruntulenenler Blok Ayarlari */
+  #populer{
+    display: block;
+    height:110px;
+    margin:0 0 1% 0;
+  }
+  #populer-gorsel{
+    width: 30%;
+    float: left;
+    margin:0 1%;
+  }
+  #populer-yazi{
+    width: 66%;
+    float: left;
+  }
+  #populer-kategori{
+    font-size: 12px;
+    color:orange;
+    font-weight: 700;
+  }
+  /*****************************************************/
+  /* Benzer Icerik Blok Ayarlari*/
+  #benzer-icerik{
+    display: block;
+    height:110px;
+    margin:0 0 1%;
+  }
+  #benzer-icerik-gorsel{
+    width: 30%;
+    float: left;
+    margin:0 1%;
+  }
+  #benzer-icerik-baslik{
+    width: 66%;
+    float: left;
+  }
+  /*****************************************************/
+  /* Sayfa Ici Gorunum Ayarlari */
+  .field--name-field-one-cikan-gorsel{
+    margin:3% 0;
+  }
+  .field--name-field-one-cikan-gorsel img{
+    width: 100%;
+  }
+  .field--name-field-haber-spotu{
+    font-weight: 700;
+  }
+  .field--name-field-foto-galeri{
+    position: relative;
+    z-index: 99;
+  }
+  .field--name-field-foto-galeri .field__item .colorbox.cboxElement{
+    width: 31%;
+    margin:0 2% 2% 0;
+    float: left;
+  }
+  .field--name-field-etiketler .field__item{
+    color:#fff;
+    background: #3b5998 !important;;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .field--name-field-etiketler .field__item:before{
+    content:'#';
+  }
+  /*****************************************************/
+  /* Duyarli Ekran Ayarlari */
+  @media (max-width:400px){
+    .views-exposed-form .form-actions{
+      margin:50px 0 1%;
+    }
+    .views-exposed-form .form-submit{
+      font-size: 12px !important;
+      margin:15px 5px 1% !important;
+      width: 90px !important;
+      float: left !important;
+      padding: 10px 20px !important;
+    }
+    .views-exposed-form #edit-actions{
+      min-width: 200px;
+      text-align: center;
+    }
+    #manset-yazi{
+      padding: 10px 12% 10px 12%;
+    }
+    #manset-kategori{
+      margin:0 0 5%;
+      font-size:2.4vw;
+      width: 25vw;
+    }
+    #manset-tarih{
+      font-size: 2vw;
+    }
+    #manset-baslik a{
+      font-weight: 700;
+      font-size: 4vw;
+    }
+    #manset-ek-kategori{
+      width:15vw;
+      font-size: 2.4vw;
+    }
+    #manset-ek-tarih{
+      font-size: 2vw;
+    }
+    #manset-ek-baslik a{
+      font-size: 4vw
+    }
+    #blok-satir-gorunum{
+      width: 100%;
+      float: none;
+      margin:0 0 2%;
+    }
+    #ek-satir-gorunum{
+      width: 100%;
+      float: left;
+    }
+    #video-gorsel{
+      width: 49%;float: left;margin:0 1% 2% 0;
+    }
+    #video-sayfa{
+      width: 100%;
+      margin: 0 0 8%;
+    }
+    #satir-gorunum{
+      min-height: initial;
+    }
+    #satir-gorunum-gorsel{
+      max-width: 100%;
+      float: none;
+      margin:0 2% 2% 0;
+    }
+    #grid{
+      width: 100%;
+      float: none;
+      margin: 0 0 10% 0;
+    }
+    #populer-baslik a{
+      font-size: 14px;
+    }
+    #yazar-sayfa{
+      width:100%;
+      float:none;
+    }
+  }
+  @media (min-width:401px) and (max-width:599px){
+    .views-exposed-form .form-actions{
+      margin:50px 0 1%;
+    }
+    .views-exposed-form .form-submit{
+      font-size: 12px !important;
+      margin:15px 5px 1% !important;
+      width: 90px !important;
+      float: left !important;
+      padding: 10px 20px !important;
+    }
+    .views-exposed-form #edit-actions{
+      min-width: 200px;
+      text-align: center;
+    }
+    #manset-yazi{
+      padding: 10px 10% 10px 10%;
+    }
+    #manset-kategori{
+      margin:0 0 5%;
+      font-size:2.4vw;
+      width: 15vw;
+    }
+    #manset-tarih{
+      font-size: 2vw;
+    }
+    #manset-baslik a{
+      font-weight: 700;
+      font-size: 4vw;
+    }
+    #manset-ek-kategori{
+      width:15vw;
+      font-size: 2.4vw;
+    }
+    #manset-ek-tarih{
+      font-size: 2vw;
+    }
+    #manset-ek-baslik a{
+      font-size: 4vw
+    }
+    #blok-satir-gorunum{
+      width: 100%;
+      float: none;
+      margin:0 0 2%;
+    }
+    #ek-satir-gorunum{
+      width: 100%;
+      float: left;
+    }
+    #video-gorsel{
+      width: 49%;float: left;margin:0 1% 2% 0;
+    }
+    #video-sayfa{
+      width: 100%;
+      margin: 0 0 8%;
+    }
+    #satir-gorunum{
+      min-height: initial;
+    }
+    #satir-gorunum-gorsel{
+      max-width: 100%;
+      float: none;
+      margin:0 2% 2% 0;
+    }
+    #grid{
+      width: 100%;
+      float: none;
+      margin: 0 0 10% 0;
+    }
+    #populer-baslik a{
+      font-size: 14px;
+    }
+    #yazar-sayfa{
+      width:100%;
+      float:none;
+    }
+  }
+  @media (min-width:600px) and (max-width:767px){
+    #yazar-sayfa{
+      width:48%;
+    }
+  }
+  /*****************************************************/
+  @media (max-width:767px){
+    .paragraph-responsive-typography-enabled .node__main-content p {
+      line-height: calc(155% + 0.2vw);
+      font-size: calc(0.95em + 0.2vw);
+    }
+    .block-search input.form-search {
+      padding: 8px 15px;
+    }
+    #block-aramaformu-2{
+      width: 60%;
+      z-index: 199;
+    }
+    #block-mainnavigation{
+      top: 10px;
+    }
+    #block-sitebranding{
+      text-align: center !important;
+    }
+    .logo{
+      width: 100%;
+    }
+    .logo img{
+      width: initial;
+    }
+    .sf-depth-1 .sf-no-children, .sf-depth-2{
+      height: 50px !important;
+      border-bottom-color: rgba(255,255,255,0.1) !important;
+    }
+    .addtoany_list{
+      bottom: 0 !important;
+      top:92.5% !important;
+      width: 100%;
+      text-align: center;
+      padding: 1.5% 0 0;
+    }
+    .addtoany_list a{
+      display: initial;
+    }
+    .addtoany_list span{
+      width:25% !important;
+      height:50px !important;
+    }
+    .addtoany_list svg{
+      width:50px !important;
+    }
+    .to-top{
+      bottom:50px;
+    }
+    #satir-gorunum-gorsel img, #blok-satir-gorunum-gorsel img, #grid-gorsel img{
+      width: 100%;
+    }
+  }
+  @media (min-width:767px) and (max-width:991px){
+    .nolink::after {
+      content: "\f107";
+      font-family: 'fontello';
+      left: 90%;
+      top: 20px;
+      margin-left: -3px;
+      font-size: 10px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: absolute;
+      transform: none;
+    }
+  }
+  @media (max-width:991px){
+    #block-views-block-yazar-bilgisi-block-1{
+      display: none;
+    }
+  }
+  @media (min-width:992px){
+    #block-views-block-yazar-bilgisi-block-1-2{
+      display: none;
+    }
+  }

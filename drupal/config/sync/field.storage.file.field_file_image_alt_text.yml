@@ -1,0 +1,21 @@
+uuid: d0b4aa35-b04c-4bc0-ac1b-7ccbe3e9d58a
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+id: file.field_file_image_alt_text
+field_name: field_file_image_alt_text
+entity_type: file
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

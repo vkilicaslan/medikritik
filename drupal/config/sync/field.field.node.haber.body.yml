@@ -1,0 +1,23 @@
+uuid: 84f9ba41-0546-4403-830d-6f90d42f7fcd
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.haber
+  module:
+    - text
+id: node.haber.body
+field_name: body
+entity_type: node
+bundle: haber
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

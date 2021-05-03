@@ -1,0 +1,15 @@
+uuid: a2ee78e8-a12c-47d2-a86d-eadf6050d6a3
+name: MediKritik
+mail: bilgi@medikritik.com
+slogan: ''
+page:
+  403: ''
+  404: /
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: tr
+default_langcode: tr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

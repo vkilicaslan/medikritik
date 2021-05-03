@@ -1,0 +1,38 @@
+uuid: b8051e15-e55d-448d-819c-f486c5bf2640
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_one_cikan_gorsel
+    - node.type.haber
+  module:
+    - image
+id: node.haber.field_one_cikan_gorsel
+field_name: field_one_cikan_gorsel
+entity_type: node
+bundle: haber
+label: 'Öne Çkan Görsel'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: haber-gorselleri
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

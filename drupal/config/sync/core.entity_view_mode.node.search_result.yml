@@ -1,0 +1,12 @@
+uuid: 9ffa418b-58be-4dfc-a847-72a100f8b84d
+langcode: tr
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6GCOQ-jP2RbdbHA5YWQ6bT8CfGbqrBYKOSC_XY4E3ZM
+id: node.search_result
+label: 'Aranan ifadenin vurgulandığı arama sonucu'
+targetEntityType: node
+cache: true

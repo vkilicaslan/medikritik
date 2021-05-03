@@ -1,0 +1,22 @@
+uuid: 0dfc0c86-61ff-495e-bba5-729518052c50
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.video_icerik
+id: node.video_icerik.promote
+field_name: promote
+entity_type: node
+bundle: video_icerik
+label: 'Ana sayfaya yükseltilmiş'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Açık
+  off_label: Kapalı
+field_type: boolean

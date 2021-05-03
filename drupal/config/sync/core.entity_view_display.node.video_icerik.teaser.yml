@@ -1,0 +1,23 @@
+uuid: 8487a9d8-0ec6-4f73-a42f-ea89484aa15d
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.video_icerik.field_video_url
+    - node.type.video_icerik
+  module:
+    - user
+id: node.video_icerik.teaser
+targetEntityType: node
+bundle: video_icerik
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_video_url: true
+  langcode: true

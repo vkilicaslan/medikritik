@@ -1,0 +1,28 @@
+uuid: ed557ce0-9efa-4d61-9216-c120c4a7de23
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_linkedin
+  module:
+    - link
+    - user
+id: user.user.field_linkedin
+field_name: field_linkedin
+entity_type: user
+bundle: user
+label: Linkedin
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#'
+    title: Linkedin
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

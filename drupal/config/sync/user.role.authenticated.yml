@@ -1,0 +1,23 @@
+uuid: 83b74d41-c7ee-4ba4-947b-1282b2a594e3
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access polls'
+  - 'access user profiles'
+  - 'cancel own vote'
+  - 'opt-in or out of google analytics tracking'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use advanced search'
+  - 'use text format restricted_html'
+  - 'view files'

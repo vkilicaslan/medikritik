@@ -1,0 +1,12 @@
+uuid: a2d348ce-21b8-4b5c-a99a-0f6a0f66e8f7
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  shortlink: '[site:url]'
+  title: 'Ana Sayfa | [site:name]'
+  canonical_url: '[site:url]'

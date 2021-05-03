@@ -1,0 +1,8 @@
+uuid: d1fb5dc4-a778-4088-88e1-c55c18267857
+langcode: tr
+status: true
+dependencies: {  }
+id: comment_node_article
+label: 'Köşe Yazısı comment'
+target_entity_type_id: node
+description: null

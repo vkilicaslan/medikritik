@@ -1,0 +1,23 @@
+uuid: 12a26dd4-daeb-467e-846f-cfbc3be1e36d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - conference_lite
+_core:
+  default_config_hash: QBpTO7d_Rjt7kPMGKCaQydvxNwTtlr_m37MOlqawUkI
+id: conference_lite_search
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -18
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Arama
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

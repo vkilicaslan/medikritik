@@ -1,0 +1,19 @@
+uuid: 37cbc4dd-4490-4f61-bfe5-f1c0469694f0
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.file.teaser
+    - field.field.file.image.field_file_image_alt_text
+    - field.field.file.image.field_file_image_title_text
+  module:
+    - file
+id: file.image.teaser
+targetEntityType: file
+bundle: image
+mode: teaser
+content: {  }
+hidden:
+  field_file_image_alt_text: true
+  field_file_image_title_text: true
+  langcode: true

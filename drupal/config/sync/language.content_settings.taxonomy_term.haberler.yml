@@ -1,0 +1,11 @@
+uuid: 3d9c73b7-ff7d-496f-b2b9-5ad0bbe990ef
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.haberler
+id: taxonomy_term.haberler
+target_entity_type_id: taxonomy_term
+target_bundle: haberler
+default_langcode: site_default
+language_alterable: false

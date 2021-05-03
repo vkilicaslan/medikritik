@@ -1,0 +1,22 @@
+uuid: fbc2d2d3-709c-42d0-8b8f-e6b9d12f264b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: node_haber
+label: 'İçerik - Haber'
+type: 'canonical_entities:node'
+pattern: '[node:field_haber_kategorisi:0]/[node:title]'
+selection_criteria:
+  dc670134-8e62-4a5d-83b5-692d41c4c4bf:
+    id: node_type
+    bundles:
+      haber: haber
+    negate: false
+    context_mapping:
+      node: node
+    uuid: dc670134-8e62-4a5d-83b5-692d41c4c4bf
+selection_logic: and
+weight: 0
+relationships: {  }

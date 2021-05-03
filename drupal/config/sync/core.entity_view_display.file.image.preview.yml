@@ -1,0 +1,19 @@
+uuid: 3a2d4aa5-c156-492a-b6c5-cc528d8c3f31
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.file.preview
+    - field.field.file.image.field_file_image_alt_text
+    - field.field.file.image.field_file_image_title_text
+  module:
+    - file
+id: file.image.preview
+targetEntityType: file
+bundle: image
+mode: preview
+content: {  }
+hidden:
+  field_file_image_alt_text: true
+  field_file_image_title_text: true
+  langcode: true

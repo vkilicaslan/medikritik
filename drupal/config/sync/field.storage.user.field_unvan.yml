@@ -1,0 +1,21 @@
+uuid: 173eb404-4ea5-42e3-85c3-518fec35d9ab
+langcode: tr
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_unvan
+field_name: field_unvan
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

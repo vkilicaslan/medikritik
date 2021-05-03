@@ -1,0 +1,98 @@
+uuid: 1f4f1898-5ee6-45dc-8fc1-6dc32e387896
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.haber.body
+    - field.field.node.haber.comment_node_haber
+    - field.field.node.haber.field_etiketler
+    - field.field.node.haber.field_foto_galeri
+    - field.field.node.haber.field_haber_kategorisi
+    - field.field.node.haber.field_haber_spotu
+    - field.field.node.haber.field_mansete_tasi
+    - field.field.node.haber.field_one_cikan_gorsel
+    - field.field.node.haber.field_video_url
+    - image.style.satir_resim_stili_380x215
+    - node.type.haber
+  module:
+    - colorbox
+    - image
+    - text
+    - user
+    - video_embed_field
+id: node.haber.default
+targetEntityType: node
+bundle: haber
+mode: default
+content:
+  addtoany:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    weight: 3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_etiketler:
+    label: above
+    weight: 6
+    type: entity_reference_label
+    settings:
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_foto_galeri:
+    weight: 5
+    label: above
+    settings:
+      colorbox_node_style: satir_resim_stili_380x215
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings: {  }
+    type: colorbox
+    region: content
+  field_haber_spotu:
+    type: basic_string
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_one_cikan_gorsel:
+    label: hidden
+    weight: 1
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_video_url:
+    weight: 4
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment_node_haber: true
+  field_haber_kategorisi: true
+  field_mansete_tasi: true
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: de171200-34d5-42e0-babf-c0a48a6c2915
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etiketler
+    - node.type.kose_yazisi
+    - taxonomy.vocabulary.tags
+id: node.kose_yazisi.field_etiketler
+field_name: field_etiketler
+entity_type: node
+bundle: kose_yazisi
+label: Etiketler
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

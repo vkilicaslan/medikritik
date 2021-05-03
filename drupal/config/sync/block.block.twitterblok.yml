@@ -1,0 +1,25 @@
+uuid: 1f54b6c7-7c86-478b-87f5-24b470c6963e
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ea110dac-abaf-4770-a527-f6bc0e9959fd'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: twitterblok
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -13
+provider: null
+plugin: 'block_content:ea110dac-abaf-4770-a527-f6bc0e9959fd'
+settings:
+  id: 'block_content:ea110dac-abaf-4770-a527-f6bc0e9959fd'
+  label: 'Twitter Blok'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

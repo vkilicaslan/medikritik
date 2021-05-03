@@ -1,0 +1,31 @@
+uuid: fc962141-a624-4d85-ba8d-78d99638880e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.benzer_icerik
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__benzer_icerik_block_1
+theme: conference_lite
+region: sidebar_second
+weight: -16
+provider: null
+plugin: 'views_block:benzer_icerik-block_1'
+settings:
+  id: 'views_block:benzer_icerik-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/kose-yazilari/*\r\n/kose-yazilari\r\n/*\r\n<front>"
+    negate: true
+    context_mapping: {  }

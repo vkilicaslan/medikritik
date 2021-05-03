@@ -1,0 +1,25 @@
+uuid: aa2865e6-23f0-43e5-a2eb-53b98d1298bf
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b8f47d0e-4233-453d-ba47-85fd8c22a495'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: iletisim
+theme: conference_lite
+region: footer_fifth
+weight: -19
+provider: null
+plugin: 'block_content:b8f47d0e-4233-453d-ba47-85fd8c22a495'
+settings:
+  id: 'block_content:b8f47d0e-4233-453d-ba47-85fd8c22a495'
+  label: İletişim
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

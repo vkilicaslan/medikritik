@@ -1,0 +1,17 @@
+uuid: 2a6500a0-7009-441c-bd1e-b0c7aec7fc7f
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Köşe Yazısı'
+type: kose_yazisi
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

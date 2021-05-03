@@ -1,0 +1,33 @@
+uuid: c4033113-2c5d-48ba-bb3b-a0874d6d8b24
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_ad_soyad
+    - field.field.user.user.field_facebook
+    - field.field.user.user.field_instagram
+    - field.field.user.user.field_linkedin
+    - field.field.user.user.field_sabit_yazar
+    - field.field.user.user.field_twitter
+    - field.field.user.user.field_unvan
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  field_ad_soyad: true
+  field_facebook: true
+  field_instagram: true
+  field_linkedin: true
+  field_sabit_yazar: true
+  field_twitter: true
+  field_unvan: true
+  langcode: true
+  member_for: true
+  user_picture: true

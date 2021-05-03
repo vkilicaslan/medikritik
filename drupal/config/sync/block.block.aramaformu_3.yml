@@ -1,0 +1,21 @@
+uuid: 3ff89ae1-3b40-4ad4-8960-ca40911d552a
+langcode: tr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - conference_lite
+id: aramaformu_3
+theme: conference_lite
+region: hidden_blocks_collection
+weight: -12
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Arama formu'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }
